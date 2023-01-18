@@ -1,0 +1,82 @@
+id 2211
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+www.google.com. IN A
+;ANSWER
+www.google.com. 97 IN A 142.250.191.68
+;AUTHORITY
+google.com. 111025 IN NS ns1.google.com.
+google.com. 111025 IN NS ns2.google.com.
+google.com. 111025 IN NS ns3.google.com.
+google.com. 111025 IN NS ns4.google.com.
+;ADDITIONAL
+ns1.google.com. 111025 IN A 216.239.32.10
+ns1.google.com. 111025 IN AAAA 2001:4860:4802:32::a
+ns2.google.com. 111025 IN A 216.239.34.10
+ns2.google.com. 111025 IN AAAA 2001:4860:4802:34::a
+ns3.google.com. 111025 IN A 216.239.36.10
+ns3.google.com. 111025 IN AAAA 2001:4860:4802:36::a
+ns4.google.com. 111025 IN A 216.239.38.10
+ns4.google.com. 111025 IN AAAA 2001:4860:4802:38::a
+
+
+
+id 43231
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+www.google.com. IN A
+;ANSWER
+www.google.com. 265 IN A 142.250.200.100
+;AUTHORITY
+;ADDITIONAL
+
+
+
+id 58806
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+www.google.com. IN A
+;ANSWER
+www.google.com. 231 IN A 142.250.147.103
+www.google.com. 231 IN A 142.250.147.104
+www.google.com. 231 IN A 142.250.147.105
+www.google.com. 231 IN A 142.250.147.106
+www.google.com. 231 IN A 142.250.147.147
+www.google.com. 231 IN A 142.250.147.99
+;AUTHORITY
+;ADDITIONAL
+
+
+id 10435
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+www.google.com. IN A
+;ANSWER
+www.google.com. 87 IN A 142.250.181.132
+;AUTHORITY
+;ADDITIONAL
+
+
+id 5286
+opcode QUERY
+rcode NOERROR
+flags QR RD RA
+;QUESTION
+www.google.com. IN A
+;ANSWER
+www.google.com. 300 IN A 142.251.12.103
+www.google.com. 300 IN A 142.251.12.104
+www.google.com. 300 IN A 142.251.12.105
+www.google.com. 300 IN A 142.251.12.106
+www.google.com. 300 IN A 142.251.12.147
+www.google.com. 300 IN A 142.251.12.99
+;AUTHORITY
+;ADDITIONAL

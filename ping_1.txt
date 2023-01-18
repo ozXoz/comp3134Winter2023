@@ -1,0 +1,9 @@
+64 bytes from 165.22.232.184: icmp_seq=1 ttl=64 time=0.038 ms
+64 bytes from 165.22.232.184: icmp_seq=2 ttl=64 time=0.078 ms
+64 bytes from 165.22.232.184: icmp_seq=3 ttl=64 time=0.055 ms
+64 bytes from 165.22.232.184: icmp_seq=4 ttl=64 time=0.074 ms
+64 bytes from 165.22.232.184: icmp_seq=5 ttl=64 time=0.154 ms
+64 bytes from 165.22.232.184: icmp_seq=6 ttl=64 time=0.065 ms
+64 bytes from 165.22.232.184: icmp_seq=7 ttl=64 time=0.063 ms
+64 bytes from 165.22.232.184: icmp_seq=8 ttl=64 time=0.071 ms
+64 bytes from 165.22.232.184: icmp_seq=9 ttl=64 time=0.061 ms

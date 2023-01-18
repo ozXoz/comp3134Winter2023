@@ -1,0 +1,2 @@
+ping{165.22.232.184}
+64 bytes from 165.22.232.184: icmp_seq=1 ttl=64 time=0.038 ms
