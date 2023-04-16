@@ -1,0 +1,2 @@
+sudo tcpdump -i any
+sudo tcpdump -i any -w all_traffic
