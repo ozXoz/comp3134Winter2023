@@ -1,0 +1,3 @@
+We use the basename(realpath($path)) code to prevent users from seeing files and folders outside the main HTML folder. If they try, an error message will show up instead of the folder content.
+
+The file_exists() function checks if a given folder path is real. If it's not, the user sees an error message telling them that the folder doesn't exist.

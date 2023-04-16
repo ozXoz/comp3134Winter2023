@@ -1,0 +1,1 @@
+Using strip_tags(), I remove all HTML and PHP tags from the input, which prevents XSS attacks but also removes valid HTML. With htmlspecialchars(), I convert special characters to HTML entities, preventing XSS attacks while keeping the original input's appearance. This way, the input looks like HTML but won't be executed by the browser.

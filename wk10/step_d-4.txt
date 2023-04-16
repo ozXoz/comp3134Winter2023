@@ -1,0 +1,3 @@
+I can see the files inside the directory week10 .
+
+As an array I do not  see any special issue .

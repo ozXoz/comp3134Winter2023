@@ -1,0 +1,1 @@
+to let the html file be displayed i included a php tag and inside of it i included the comments so now they are part of the php

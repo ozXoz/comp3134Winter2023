@@ -1,0 +1,21 @@
+1) Navigate to the form and type a valid English word. Write your observations
+
+- my observation are that the query of the form is inputed in the url and it gives me a new page with the meaning of the word and some usages
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the
+URL. Write your observations
+
+-the page shows a message saying "Sorry, no results found for 'invalid-word(my input)'." then redirects me to a new page showing not  results found for my input this case was asdfa and the url change to missplelling temr=asdfa
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script>
+Write your observations.
+
+-when typing the page says "Sorry, no results found for '<script>alert('hello')</script>'  also giving me an alert meesage with hello
+that indicatyes the scrips is being executed by the browser
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script>
+after the `term=` section of the URL. Write your observations.
+
+- when inputing into the url the page  displays a message 
+    saying "Sorry, no results found for '<script>alert('hello')</script>'." 
+    The browser also displays a JavaScript alert dialog with the message "hello".  meaning again that the browser is executing the message

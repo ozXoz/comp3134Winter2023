@@ -1,0 +1,3 @@
+in the page i can see that 2 issues are showed
+
+and about the sensitive info i can see path location or file location
