@@ -1,0 +1,7 @@
+The first code block includes PHP code to create a session variable named "confirmation" 
+and assign it a random value It also includes a hidden 
+input field in the form with the value of the session variable, named "confirmation".
+
+
+The second code block does not include any PHP code to create a session variable
+or include it in the form as a hidden input field.
