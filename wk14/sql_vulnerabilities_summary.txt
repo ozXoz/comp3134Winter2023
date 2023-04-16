@@ -1,0 +1,13 @@
+so in the getusers_1.php when i input ben because the status is 0 is not gonna be showed
+in the second case when i inputt Ben’-- the two "--" is a SQL comment, which causes the rest of the query after it to be ignored.
+The "OR 1=1" condition is always true, so the query will return all rows in the "users" table, regardless of the value in the "firstname" or "active" columns.
+
+However, it's important to note that the code in getusers_1.php does not use prepared statements or sanitize the input, which makes it vulnerable to SQL injection attacks.
+
+
+
+but in the getusers_2 that is better prepared statements to prevent SQL injection attacks
+
+nputting ben: The script will query the database to find all rows in the "users" table where the "firstname" column is equal to "ben" (case-sensitive) and the "active" column is equal to 0. If there are matching rows, the script will display the results in an HTML table below the form.
+Inputting Ben'--: The script will query the database to find all rows in the "users" table where the "firstname" column is equal to "Ben'--" (including the apostrophe and hyphens) and the "active" column is equal to 1. However, since the input value is passed as a parameter to a prepared statement, the apostrophe and hyphens will be treated as literal values and will not be interpreted as SQL code. As a result, the query will return zero rows, and the HTML table will not display any results.
+Inputting Ben' or 1=1: The script will query the database to find all rows in the "users" table where the "firstname" column is equal to "Ben' or 1=1" (including the apostrophe and spaces) and the "active" column is equal to 1. However, since the input value is passed as a parameter to a prepared statement, the apostrophe and spaces will be treated as literal values and will not be interpreted as SQL code. As a result, the query will return zero rows, and the HTML table will not display any results. This effectively prevents SQL injection attacks.
