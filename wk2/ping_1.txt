@@ -1,6 +1,10 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping www.crunchyroll.com
+PING www.crunchyroll.com (104.18.40.133) 56(84) bytes of data.
+64 bytes from 104.18.40.133 (104.18.40.133): icmp_seq=1 ttl=60 time=1.91 ms
+64 bytes from 104.18.40.133 (104.18.40.133): icmp_seq=2 ttl=60 time=1.34 ms
+64 bytes from 104.18.40.133 (104.18.40.133): icmp_seq=3 ttl=60 time=1.37 ms
+64 bytes from 104.18.40.133 (104.18.40.133): icmp_seq=4 ttl=60 time=1.34 ms
+64 bytes from 104.18.40.133 (104.18.40.133): icmp_seq=5 ttl=60 time=1.38 ms
+64 bytes from 104.18.40.133 (104.18.40.133): icmp_seq=6 ttl=60 time=1.42 ms
+64 bytes from 104.18.40.133 (104.18.40.133): icmp_seq=7 ttl=60 time=1.29 ms
+64 bytes from 104.18.40.133 (104.18.40.133): icmp_seq=8 ttl=60 time=1.31 ms

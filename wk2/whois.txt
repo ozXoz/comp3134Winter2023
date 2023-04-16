@@ -1,139 +1,19 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
+Domain:youtube.com
+Registrar:MarkMonitor Inc.
+Registered On:2005-02-15
 
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2086\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
+Domain:google.com
+Registrar:MarkMonitor Inc.
+Registered On:1997-09-15
 
-\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 Domain:youtube.com\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
+Domain:crunchyroll.com
+Registrar:Amazon Registrar, Inc.
+Registered On:2006-05-14
 
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2679\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registrar:MarkMonitor Inc.\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
+Domain:facebook.com
+Registrar:RegistrarSafe, LLC
+Registered On:1997-03-29
 
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registered On:2005-02-15\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 \cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth1966\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Domain:google.com\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2679\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registrar:MarkMonitor Inc.\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registered On:1997-09-15\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 \cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2419\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Domain:crunchyroll.com\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth3176\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registrar:Amazon Registrar, Inc.\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registered On:2006-05-14\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 \cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2192\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Domain:facebook.com\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2825\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registrar:RegistrarSafe, LLC\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2566\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registered On:1997-03-29\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 \cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth1712\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Domain:ikea.com\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth3832\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registrar:CSC Corporate Domains, Inc.\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth2086\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 Registered On:1995-07-29\cell \lastrow\row}
+Domain:ikea.com
+Registrar:CSC Corporate Domains, Inc.
+Registered On:1995-07-29

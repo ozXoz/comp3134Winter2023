@@ -1,132 +1,18 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab720
+ INSTAGRAM :157.240.22.174	IPv4	Hosted by Facebook, Inc. Facebook, Inc.	United States of America
+2a03:2880:f231:e5:face:b00c:0:4420	IPv6	Hosted by Facebook, Inc. Facebook, Inc.	Ireland
 
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth10039\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
+ CRUNCHYROLL : IP address	Type	Hosted by	Location
+172.64.147.123	IPv4	Hosted by Cloudflare, Inc. Cloudflare, Inc.	United States of America
+104.18.40.133	IPv4	Hosted by Cloudflare, Inc. Cloudflare, Inc.	United States of America
 
-\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 INSTAGRAM :157.240.22.174 IPv4 Hosted by Facebook, Inc. Facebook, Inc. United States of America\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
+ FACEBOOK : IP address	Type	Hosted by	Location
+157.240.22.35	IPv4	Hosted by Facebook, Inc. Facebook, Inc.	United States of America
+2a03:2880:f131:83:face:b00c:0:25de	IPv6	Hosted by Facebook, Inc. Facebook, Inc.	Ireland
 
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth8797\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 2a03:2880:f231:e5:face:b00c:0:4420 IPv6 Hosted by Facebook, Inc. Facebook, Inc. Ireland\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
+YOUTUBE :IP address	Type	Hosted by	Location
+142.250.72.206	IPv4	Hosted by Google LLC Google LLC	United States of America
+2607:f8b0:4005:80e::200e	IPv6	Hosted by Google LLC Google LLC	United States of America
 
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 \cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth5451\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 CRUNCHYROLL : IP address Type Hosted by Location\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth8665\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 172.64.147.123 IPv4 Hosted by Cloudflare, Inc. Cloudflare, Inc. United States of America\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth8545\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 104.18.40.133 IPv4 Hosted by Cloudflare, Inc. Cloudflare, Inc. United States of America\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 \cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth4936\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 FACEBOOK : IP address Type Hosted by Location\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth8385\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 157.240.22.35 IPv4 Hosted by Facebook, Inc. Facebook, Inc. United States of America\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth8797\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 2a03:2880:f131:83:face:b00c:0:25de IPv6 Hosted by Facebook, Inc. Facebook, Inc. Ireland\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 \cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth4747\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 YOUTUBE :IP address Type Hosted by Location\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth8105\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 142.250.72.206 IPv4 Hosted by Google LLC Google LLC United States of America\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth9151\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 2607:f8b0:4005:80e::200e IPv6 Hosted by Google LLC Google LLC United States of America\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 \cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth4646\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 GOOGLE : IP address Type Hosted by Location\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth8105\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 142.251.46.206 IPv4 Hosted by Google LLC Google LLC United States of America\cell \lastrow\row
-\pard\pardeftab720\partightenfactor0
-\cf0 \
-
-\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
-\clvertalc \clshdrawnil \clwWidth10039\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
-\pard\intbl\itap1\pardeftab720\partightenfactor0
-\cf0 2607:f8b0:4005:802::200e IPv6 Hosted by Google LLC Google LLC United States of America\cell \lastrow\row}
+GOOGLE : 	IP address	Type	Hosted by	Location
+142.251.46.206	IPv4	Hosted by Google LLC Google LLC	United States of America
+2607:f8b0:4005:802::200e	IPv6	Hosted by Google LLC Google LLC	United States of America

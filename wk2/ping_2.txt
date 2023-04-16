@@ -1,0 +1,8 @@
+oot@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 159.203.21.7 == deepocean ip
+PING 159.203.21.7 (159.203.21.7) 56(84) bytes of data.
+64 bytes from 159.203.21.7: icmp_seq=1 ttl=64 time=0.036 ms
+64 bytes from 159.203.21.7: icmp_seq=2 ttl=64 time=0.059 ms
+64 bytes from 159.203.21.7: icmp_seq=3 ttl=64 time=0.061 ms
+64 bytes from 159.203.21.7: icmp_seq=4 ttl=64 time=0.053 ms
+64 bytes from 159.203.21.7: icmp_seq=5 ttl=64 time=0.057 ms
+64 bytes from 159.203.21.7: icmp_seq=6 ttl=64 time=0.062 ms
