@@ -1,0 +1,12 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+02:09:29.468498 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1405254935:1405255043, ack 1339829554, win 501, length 108
+02:09:29.468580 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 108:252, ack 1, win 501, length 144
+02:09:29.468635 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 252:288, ack 1, win 501, length 36
+02:09:29.469223 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.55178 > 67.207.67.2.domain: 63862+ [1au] PTR? 215.121.146.184.in-addr.arpa. (57)
+02:09:29.469279 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.39861 > 67.207.67.3.domain: 24360+ [1au] PTR? 215.121.146.184.in-addr.arpa. (57)
+5 packets captured
+57 packets received by filter
+21 packets dropped by kernel
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~#

@@ -1,0 +1,969 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+03:20:06.030368 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1416744119:1416744227, ack 1339834878, win 501, length 108
+03:20:06.030451 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 108:252, ack 1, win 501, length 144
+03:20:06.030528 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 252:288, ack 1, win 501, length 36
+03:20:06.032183 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 1024, length 0
+03:20:06.032183 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 288, win 1024, length 0
+03:20:06.033420 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 288:524, ack 1, win 501, length 236
+03:20:06.033493 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 524:772, ack 1, win 501, length 248
+03:20:06.033553 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 772:1020, ack 1, win 501, length 248
+03:20:06.033604 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1020:1056, ack 1, win 501, length 36
+03:20:06.033615 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1056:1252, ack 1, win 501, length 196
+03:20:06.033656 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1252:1288, ack 1, win 501, length 36
+03:20:06.033692 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1288:1484, ack 1, win 501, length 196
+03:20:06.033730 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1484:1520, ack 1, win 501, length 36
+03:20:06.033767 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1520:1768, ack 1, win 501, length 248
+03:20:06.033805 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1768:1980, ack 1, win 501, length 212
+03:20:06.035445 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 772, win 1022, length 0
+03:20:06.035445 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1056, win 1021, length 0
+03:20:06.035445 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1288, win 1026, length 0
+03:20:06.035479 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 1980:4000, ack 1, win 501, length 2020
+03:20:06.035546 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1520, win 1025, length 0
+03:20:06.035546 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1980, win 1023, length 0
+03:20:06.035575 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 4000:4196, ack 1, win 501, length 196
+03:20:06.035643 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 4196:4232, ack 1, win 501, length 36
+03:20:06.035728 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 4232:4428, ack 1, win 501, length 196
+03:20:06.035785 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 4428:4660, ack 1, win 501, length 232
+03:20:06.035850 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 4660:4908, ack 1, win 501, length 248
+03:20:06.035907 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 4908:4944, ack 1, win 501, length 36
+03:20:06.035933 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 4944:5140, ack 1, win 501, length 196
+03:20:06.035960 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 5140:5176, ack 1, win 501, length 36
+03:20:06.036001 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 5176:5372, ack 1, win 501, length 196
+03:20:06.036035 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 5372:5408, ack 1, win 501, length 36
+03:20:06.036072 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 5408:5620, ack 1, win 501, length 212
+03:20:06.036108 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 5620:5868, ack 1, win 501, length 248
+03:20:06.036149 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 5868:5904, ack 1, win 501, length 36
+03:20:06.036182 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 5904:6116, ack 1, win 501, length 212
+03:20:06.036218 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 6116:6152, ack 1, win 501, length 36
+03:20:06.036256 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 6152:6400, ack 1, win 501, length 248
+03:20:06.036292 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 6400:6612, ack 1, win 501, length 212
+03:20:06.036329 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 6612:6648, ack 1, win 501, length 36
+03:20:06.037164 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 1980, win 1023, options [nop,nop,sack 1 {3432:4000}], length 0
+03:20:06.037188 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 6648:9552, ack 1, win 501, length 2904
+03:20:06.037565 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4000, win 1026, length 0
+03:20:06.037582 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 9552:10392, ack 1, win 501, length 840
+03:20:06.037643 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 10392:10588, ack 1, win 501, length 196
+03:20:06.037653 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4232, win 1025, length 0
+03:20:06.037653 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4660, win 1024, length 0
+03:20:06.037695 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 10588:10624, ack 1, win 501, length 36
+03:20:06.037716 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 10624:10836, ack 1, win 501, length 212
+03:20:06.037748 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 10836:10872, ack 1, win 501, length 36
+03:20:06.037791 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 10872:11084, ack 1, win 501, length 212
+03:20:06.037797 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4944, win 1022, length 0
+03:20:06.037838 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 11084:11316, ack 1, win 501, length 232
+03:20:06.037880 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 11316:11352, ack 1, win 501, length 36
+03:20:06.037921 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 11352:11584, ack 1, win 501, length 232
+03:20:06.037964 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 11584:11796, ack 1, win 501, length 212
+03:20:06.038008 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 11796:12044, ack 1, win 501, length 248
+03:20:06.038098 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 12044:12080, ack 1, win 501, length 36
+03:20:06.038137 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 12080:12292, ack 1, win 501, length 212
+03:20:06.038178 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5176, win 1022, length 0
+03:20:06.038178 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5408, win 1021, length 0
+03:20:06.038178 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5868, win 1026, length 0
+03:20:06.038178 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6116, win 1025, length 0
+03:20:06.038178 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6400, win 1024, length 0
+03:20:06.038190 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 12292:12328, ack 1, win 501, length 36
+03:20:06.038229 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 12328:12540, ack 1, win 501, length 212
+03:20:06.038279 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 12540:12772, ack 1, win 501, length 232
+03:20:06.038291 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6648, win 1023, length 0
+03:20:06.038327 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 12772:12808, ack 1, win 501, length 36
+03:20:06.038366 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 12808:13020, ack 1, win 501, length 212
+03:20:06.038415 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 13020:13056, ack 1, win 501, length 36
+03:20:06.038436 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 13056:13268, ack 1, win 501, length 212
+03:20:06.038465 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 13268:13304, ack 1, win 501, length 36
+03:20:06.038503 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 13304:13516, ack 1, win 501, length 212
+03:20:06.038552 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 13516:13552, ack 1, win 501, length 36
+03:20:06.038587 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 13552:13764, ack 1, win 501, length 212
+03:20:06.038629 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 13764:14012, ack 1, win 501, length 248
+03:20:06.038672 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 14012:14048, ack 1, win 501, length 36
+03:20:06.038713 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 14048:14296, ack 1, win 501, length 248
+03:20:06.038755 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 14296:14544, ack 1, win 501, length 248
+03:20:06.038798 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 14544:14740, ack 1, win 501, length 196
+03:20:06.038842 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 14740:14972, ack 1, win 501, length 232
+03:20:06.038881 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 14972:15008, ack 1, win 501, length 36
+03:20:06.038918 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 15008:15240, ack 1, win 501, length 232
+03:20:06.038955 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 15240:15436, ack 1, win 501, length 196
+03:20:06.038992 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 15436:15472, ack 1, win 501, length 36
+03:20:06.039030 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 15472:15704, ack 1, win 501, length 232
+03:20:06.039067 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 15704:15916, ack 1, win 501, length 212
+03:20:06.039110 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 15916:15952, ack 1, win 501, length 36
+03:20:06.039116 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6648, win 1023, options [nop,nop,sack 1 {8100:9552}], length 0
+03:20:06.039155 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 15952:16200, ack 1, win 501, length 248
+03:20:06.039200 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 16200:16412, ack 1, win 501, length 212
+03:20:06.039206 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 9552, win 1026, length 0
+03:20:06.039206 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10624, win 1022, length 0
+03:20:06.039247 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 16412:16448, ack 1, win 501, length 36
+03:20:06.039286 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 16448:16680, ack 1, win 501, length 232
+03:20:06.039330 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 16680:16892, ack 1, win 501, length 212
+03:20:06.039337 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10872, win 1021, length 0
+03:20:06.039337 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 11084, win 1026, length 0
+03:20:06.039337 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 11352, win 1025, length 0
+03:20:06.039422 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 16892:17176, ack 1, win 501, length 284
+03:20:06.039471 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 17176:17424, ack 1, win 501, length 248
+03:20:06.039522 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 17424:17636, ack 1, win 501, length 212
+03:20:06.039568 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 17636:17672, ack 1, win 501, length 36
+03:20:06.039617 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 17884:17920, ack 1, win 501, length 36
+03:20:06.039668 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 17920:18168, ack 1, win 501, length 248
+03:20:06.039755 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 18380:18416, ack 1, win 501, length 36
+03:20:06.039797 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 18416:18664, ack 1, win 501, length 248
+03:20:06.039895 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 18876:19124, ack 1, win 501, length 248
+03:20:06.039938 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 19124:19160, ack 1, win 501, length 36
+03:20:06.039989 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 19160:19408, ack 1, win 501, length 248
+03:20:06.040063 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 19620:19868, ack 1, win 501, length 248
+03:20:06.040140 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 19904:20116, ack 1, win 501, length 212
+03:20:06.040172 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 20116:20152, ack 1, win 501, length 36
+03:20:06.040245 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 20364:20612, ack 1, win 501, length 248
+03:20:06.040284 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 20612:20648, ack 1, win 501, length 36
+03:20:06.040327 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 20648:20896, ack 1, win 501, length 248
+03:20:06.040410 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 21108:21144, ack 1, win 501, length 36
+03:20:06.040540 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 21392:21604, ack 1, win 501, length 212
+03:20:06.040618 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 21604:21852, ack 1, win 501, length 248
+03:20:06.040674 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 21852:21888, ack 1, win 501, length 36
+03:20:06.040781 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 22124:22160, ack 1, win 501, length 36
+03:20:06.040871 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 22372:22408, ack 1, win 501, length 36
+03:20:06.040930 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 22620:22656, ack 1, win 501, length 36
+03:20:06.040968 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 22656:22888, ack 1, win 501, length 232
+03:20:06.041040 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 23084:23120, ack 1, win 501, length 36
+03:20:06.041114 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 23332:23580, ack 1, win 501, length 248
+03:20:06.041150 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 23580:23616, ack 1, win 501, length 36
+03:20:06.041225 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 23828:23864, ack 1, win 501, length 36
+03:20:06.041297 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 24060:24096, ack 1, win 501, length 36
+03:20:06.041418 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 24292:24328, ack 1, win 501, length 36
+03:20:06.041544 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 24524:24560, ack 1, win 501, length 36
+03:20:06.041631 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 24772:24808, ack 1, win 501, length 36
+03:20:06.041686 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 25020:25056, ack 1, win 501, length 36
+03:20:06.041775 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 25268:25516, ack 1, win 501, length 248
+03:20:06.041817 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 25516:25764, ack 1, win 501, length 248
+03:20:06.041861 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 25764:25800, ack 1, win 501, length 36
+03:20:06.041902 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 25800:26048, ack 1, win 501, length 248
+03:20:06.041994 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 26296:26508, ack 1, win 501, length 212
+03:20:06.042032 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 26508:26544, ack 1, win 501, length 36
+03:20:06.042140 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 26756:26792, ack 1, win 501, length 36
+03:20:06.042229 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 27004:27040, ack 1, win 501, length 36
+03:20:06.042335 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 27252:27288, ack 1, win 501, length 36
+03:20:06.042426 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 27500:27748, ack 1, win 501, length 248
+03:20:06.042472 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 27748:27784, ack 1, win 501, length 36
+03:20:06.042522 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 27996:28032, ack 1, win 501, length 36
+03:20:06.042633 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 28280:28492, ack 1, win 501, length 212
+03:20:06.042667 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 28492:28528, ack 1, win 501, length 36
+03:20:06.042737 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 28740:28776, ack 1, win 501, length 36
+03:20:06.042777 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 28776:29024, ack 1, win 501, length 248
+03:20:06.042864 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 29236:29484, ack 1, win 501, length 248
+03:20:06.042915 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 29484:29520, ack 1, win 501, length 36
+03:20:06.042963 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 29520:29768, ack 1, win 501, length 248
+03:20:06.043045 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 29980:30016, ack 1, win 501, length 36
+03:20:06.043118 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 30228:30264, ack 1, win 501, length 36
+03:20:06.043157 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 30264:30476, ack 1, win 501, length 212
+03:20:06.043228 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 30476:30688, ack 1, win 501, length 212
+03:20:06.043260 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 30688:31084, ack 1, win 501, length 396
+03:20:06.043314 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 31084:31296, ack 1, win 501, length 212
+03:20:06.043341 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 31296:31516, ack 1, win 501, length 220
+03:20:06.043404 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 25056, win 1022, length 0
+03:20:06.043424 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 31516:31904, ack 1, win 501, length 388
+03:20:06.043539 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 31904:33180, ack 1, win 501, length 1276
+03:20:06.043621 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 33180:34104, ack 1, win 501, length 924
+03:20:06.043631 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 26296, win 1026, length 0
+03:20:06.043700 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 34104:34852, ack 1, win 501, length 748
+03:20:06.043770 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 34852:35600, ack 1, win 501, length 748
+03:20:06.043831 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 35600:36172, ack 1, win 501, length 572
+03:20:06.043888 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 27252, win 1022, length 0
+03:20:06.043909 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 36172:36920, ack 1, win 501, length 748
+03:20:06.043980 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 36920:37652, ack 1, win 501, length 732
+03:20:06.044030 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 28280, win 1026, length 0
+03:20:06.044047 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 37652:38208, ack 1, win 501, length 556
+03:20:06.044126 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 38208:39124, ack 1, win 501, length 916
+03:20:06.044184 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 39124:39680, ack 1, win 501, length 556
+03:20:06.044269 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 39680:40076, ack 1, win 501, length 396
+03:20:06.044338 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 40076:40288, ack 1, win 501, length 212
+03:20:06.044399 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 29236, win 1022, length 0
+03:20:06.044406 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 40288:40500, ack 1, win 501, length 212
+03:20:06.044465 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 40500:40880, ack 1, win 501, length 380
+03:20:06.044525 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 40880:41092, ack 1, win 501, length 212
+03:20:06.044578 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 41092:41304, ack 1, win 501, length 212
+03:20:06.044630 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 30264, win 1026, length 0
+03:20:06.044639 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 41304:41516, ack 1, win 501, length 212
+03:20:06.044697 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 41516:41896, ack 1, win 501, length 380
+03:20:06.044750 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 41896:42108, ack 1, win 501, length 212
+03:20:06.044762 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 31516, win 1021, length 0
+03:20:06.044825 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 42108:42488, ack 1, win 501, length 380
+03:20:06.044892 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 42488:42700, ack 1, win 501, length 212
+03:20:06.044947 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 42700:42912, ack 1, win 501, length 212
+03:20:06.045003 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 42912:43124, ack 1, win 501, length 212
+03:20:06.045056 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 43124:43336, ack 1, win 501, length 212
+03:20:06.045112 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 43336:43548, ack 1, win 501, length 212
+03:20:06.045170 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 43548:43760, ack 1, win 501, length 212
+03:20:06.045183 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 31904, win 1026, length 0
+03:20:06.045232 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 43760:44140, ack 1, win 501, length 380
+03:20:06.045285 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 44140:44352, ack 1, win 501, length 212
+03:20:06.045337 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 44352:44564, ack 1, win 501, length 212
+03:20:06.045435 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 34104, win 1026, length 0
+03:20:06.045446 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 44564:44776, ack 1, win 501, length 212
+03:20:06.045509 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 44776:45156, ack 1, win 501, length 380
+03:20:06.045566 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 45156:45368, ack 1, win 501, length 212
+03:20:06.045623 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 45368:45580, ack 1, win 501, length 212
+03:20:06.045635 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 36920, win 1026, length 0
+03:20:06.045684 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 45580:45960, ack 1, win 501, length 380
+03:20:06.045736 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 45960:46172, ack 1, win 501, length 212
+03:20:06.045787 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 46172:46384, ack 1, win 501, length 212
+03:20:06.045838 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 46384:46596, ack 1, win 501, length 212
+03:20:06.045891 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 46596:46808, ack 1, win 501, length 212
+03:20:06.045942 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 46808:47020, ack 1, win 501, length 212
+03:20:06.045993 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 47020:47232, ack 1, win 501, length 212
+03:20:06.046044 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 40288, win 1026, length 0
+03:20:06.046059 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 47232:47444, ack 1, win 501, length 212
+03:20:06.046112 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 47444:47824, ack 1, win 501, length 380
+03:20:06.046169 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 47824:48036, ack 1, win 501, length 212
+03:20:06.046225 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 48036:48248, ack 1, win 501, length 212
+03:20:06.046282 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 48248:48460, ack 1, win 501, length 212
+03:20:06.046292 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 41896, win 1026, length 0
+03:20:06.046341 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 48460:48840, ack 1, win 501, length 380
+03:20:06.046400 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 48840:49052, ack 1, win 501, length 212
+03:20:06.046457 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 49052:49264, ack 1, win 501, length 212
+03:20:06.046509 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 49264:49476, ack 1, win 501, length 212
+03:20:06.046520 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 43124, win 1021, length 0
+03:20:06.046571 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 49476:49856, ack 1, win 501, length 380
+03:20:06.046621 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 49856:50068, ack 1, win 501, length 212
+03:20:06.046631 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 44352, win 1026, length 0
+03:20:06.046679 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 50068:50448, ack 1, win 501, length 380
+03:20:06.046732 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 50448:50660, ack 1, win 501, length 212
+03:20:06.046789 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 50660:50872, ack 1, win 501, length 212
+03:20:06.046845 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 50872:51084, ack 1, win 501, length 212
+03:20:06.046901 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 51084:51296, ack 1, win 501, length 212
+03:20:06.046955 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 51296:51508, ack 1, win 501, length 212
+03:20:06.047011 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 51508:51720, ack 1, win 501, length 212
+03:20:06.047068 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 51720:51932, ack 1, win 501, length 212
+03:20:06.047118 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 51932:52144, ack 1, win 501, length 212
+03:20:06.047129 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 45368, win 1022, length 0
+03:20:06.047178 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 52144:52524, ack 1, win 501, length 380
+03:20:06.047230 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 52524:52736, ack 1, win 501, length 212
+03:20:06.047280 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 52736:52948, ack 1, win 501, length 212
+03:20:06.047331 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 52948:53160, ack 1, win 501, length 212
+03:20:06.047391 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 53160:53372, ack 1, win 501, length 212
+03:20:06.047447 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 53372:53584, ack 1, win 501, length 212
+03:20:06.047504 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 53584:53796, ack 1, win 501, length 212
+03:20:06.047516 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 46596, win 1026, length 0
+03:20:06.047579 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 53796:54176, ack 1, win 501, length 380
+03:20:06.047642 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 47444, win 1023, length 0
+03:20:06.047655 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 54176:54388, ack 1, win 501, length 212
+03:20:06.047715 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 54388:54768, ack 1, win 501, length 380
+03:20:06.047768 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 54768:54980, ack 1, win 501, length 212
+03:20:06.047779 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 48840, win 1026, length 0
+03:20:06.047828 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 54980:55360, ack 1, win 501, length 380
+03:20:06.047880 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 55360:55572, ack 1, win 501, length 212
+03:20:06.047930 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 55572:55784, ack 1, win 501, length 212
+03:20:06.047982 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 55784:55996, ack 1, win 501, length 212
+03:20:06.048039 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 55996:56208, ack 1, win 501, length 212
+03:20:06.048095 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 56208:56420, ack 1, win 501, length 212
+03:20:06.048151 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 56420:56632, ack 1, win 501, length 212
+03:20:06.048172 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 50068, win 1021, length 0
+03:20:06.048223 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 56632:57012, ack 1, win 501, length 380
+03:20:06.048281 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 57012:57224, ack 1, win 501, length 212
+03:20:06.048335 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 57224:57436, ack 1, win 501, length 212
+03:20:06.048388 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 57436:57648, ack 1, win 501, length 212
+03:20:06.048440 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 57648:57860, ack 1, win 501, length 212
+03:20:06.048489 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 57860:58072, ack 1, win 501, length 212
+03:20:06.048541 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 58072:58284, ack 1, win 501, length 212
+03:20:06.048553 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 51296, win 1026, length 0
+03:20:06.048603 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 58284:58664, ack 1, win 501, length 380
+03:20:06.048658 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 58664:58876, ack 1, win 501, length 212
+03:20:06.048714 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 58876:59088, ack 1, win 501, length 212
+03:20:06.048770 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 59088:59300, ack 1, win 501, length 212
+03:20:06.048832 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 59300:59512, ack 1, win 501, length 212
+03:20:06.048885 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 59512:59724, ack 1, win 501, length 212
+03:20:06.048896 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 52524, win 1021, length 0
+03:20:06.048948 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 59724:60104, ack 1, win 501, length 380
+03:20:06.048999 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 60104:60316, ack 1, win 501, length 212
+03:20:06.049049 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 60316:60528, ack 1, win 501, length 212
+03:20:06.049103 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 60528:60740, ack 1, win 501, length 212
+03:20:06.049160 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 60740:60952, ack 1, win 501, length 212
+03:20:06.049171 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 53584, win 1026, length 0
+03:20:06.049221 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 60952:61332, ack 1, win 501, length 380
+03:20:06.049276 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 61332:61544, ack 1, win 501, length 212
+03:20:06.049331 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 61544:61756, ack 1, win 501, length 212
+03:20:06.049414 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 54980, win 1021, length 0
+03:20:06.049469 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 61756:62136, ack 1, win 501, length 380
+03:20:06.049526 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 62136:62348, ack 1, win 501, length 212
+03:20:06.049579 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 62348:62560, ack 1, win 501, length 212
+03:20:06.049632 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 56208, win 1026, length 0
+03:20:06.049640 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 62560:62772, ack 1, win 501, length 212
+03:20:06.049697 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 62772:63152, ack 1, win 501, length 380
+03:20:06.049753 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 63152:63364, ack 1, win 501, length 212
+03:20:06.049810 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 63364:63576, ack 1, win 501, length 212
+03:20:06.049878 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 63576:63788, ack 1, win 501, length 212
+03:20:06.049892 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 57648, win 1020, length 0
+03:20:06.049950 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 63788:64168, ack 1, win 501, length 380
+03:20:06.050008 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 64168:64380, ack 1, win 501, length 212
+03:20:06.050065 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 64380:64592, ack 1, win 501, length 212
+03:20:06.050122 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 64592:64804, ack 1, win 501, length 212
+03:20:06.050177 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 64804:65016, ack 1, win 501, length 212
+03:20:06.050234 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 65016:65228, ack 1, win 501, length 212
+03:20:06.050292 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 65228:65440, ack 1, win 501, length 212
+03:20:06.050303 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 58876, win 1026, length 0
+03:20:06.050364 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 65440:65820, ack 1, win 501, length 380
+03:20:06.050427 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 65820:66032, ack 1, win 501, length 212
+03:20:06.050487 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 66032:66244, ack 1, win 501, length 212
+03:20:06.050539 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 66244:66456, ack 1, win 501, length 212
+03:20:06.050589 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 66456:66668, ack 1, win 501, length 212
+03:20:06.050640 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 66668:66880, ack 1, win 501, length 212
+03:20:06.050690 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 66880:67092, ack 1, win 501, length 212
+03:20:06.050702 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 1:37, ack 58876, win 1026, length 36
+03:20:06.050760 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 67092:67480, ack 37, win 501, length 388
+03:20:06.050823 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 67480:67700, ack 37, win 501, length 220
+03:20:06.050877 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 60104, win 1021, length 0
+03:20:06.050899 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 67700:67920, ack 37, win 501, length 220
+03:20:06.050958 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 67920:68300, ack 37, win 501, length 380
+03:20:06.051010 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 68300:68520, ack 37, win 501, length 220
+03:20:06.051022 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 60952, win 1026, length 0
+03:20:06.051072 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 68520:68900, ack 37, win 501, length 380
+03:20:06.051123 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 68900:69120, ack 37, win 501, length 220
+03:20:06.051134 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 62348, win 1021, length 0
+03:20:06.051182 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 69120:69500, ack 37, win 501, length 380
+03:20:06.051233 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 69500:69720, ack 37, win 501, length 220
+03:20:06.051286 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 69720:69940, ack 37, win 501, length 220
+03:20:06.051298 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 63576, win 1026, length 0
+03:20:06.051356 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 69940:70320, ack 37, win 501, length 380
+03:20:06.051412 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 70320:70540, ack 37, win 501, length 220
+03:20:06.051465 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 70540:70760, ack 37, win 501, length 220
+03:20:06.051515 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 70760:70980, ack 37, win 501, length 220
+03:20:06.051605 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 70980:71200, ack 37, win 501, length 220
+03:20:06.051660 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 64804, win 1021, length 0
+03:20:06.051669 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 71200:71420, ack 37, win 501, length 220
+03:20:06.051726 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 71420:71800, ack 37, win 501, length 380
+03:20:06.051778 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 71800:72020, ack 37, win 501, length 220
+03:20:06.051833 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 72020:72240, ack 37, win 501, length 220
+03:20:06.051892 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 72240:72460, ack 37, win 501, length 220
+03:20:06.051904 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 65820, win 1026, length 0
+03:20:06.051956 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 72460:72840, ack 37, win 501, length 380
+03:20:06.052013 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 72840:73060, ack 37, win 501, length 220
+03:20:06.052065 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 73060:73280, ack 37, win 501, length 220
+03:20:06.052116 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 73280:73500, ack 37, win 501, length 220
+03:20:06.052166 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 73500:73720, ack 37, win 501, length 220
+03:20:06.052216 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 73720:73940, ack 37, win 501, length 220
+03:20:06.052268 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 73940:74160, ack 37, win 501, length 220
+03:20:06.052320 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 74160:74380, ack 37, win 501, length 220
+03:20:06.052379 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 67092, win 1021, length 0
+03:20:06.052398 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 74380:74600, ack 37, win 501, length 220
+03:20:06.052462 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 74600:74980, ack 37, win 501, length 380
+03:20:06.052520 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 74980:75200, ack 37, win 501, length 220
+03:20:06.052576 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 75200:75420, ack 37, win 501, length 220
+03:20:06.052633 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 75420:75640, ack 37, win 501, length 220
+03:20:06.052645 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 68520, win 1026, length 0
+03:20:06.052696 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 75640:76020, ack 37, win 501, length 380
+03:20:06.052759 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 76020:76240, ack 37, win 501, length 220
+03:20:06.052820 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 76240:76460, ack 37, win 501, length 220
+03:20:06.052880 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 76460:76680, ack 37, win 501, length 220
+03:20:06.052893 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 69940, win 1021, length 0
+03:20:06.052942 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 76680:77060, ack 37, win 501, length 380
+03:20:06.052998 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 77060:77280, ack 37, win 501, length 220
+03:20:06.053011 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 71200, win 1026, length 0
+03:20:06.053061 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 77280:77660, ack 37, win 501, length 380
+03:20:06.053117 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 77660:77880, ack 37, win 501, length 220
+03:20:06.053172 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 77880:78100, ack 37, win 501, length 220
+03:20:06.053228 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 78100:78320, ack 37, win 501, length 220
+03:20:06.053281 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 78320:78540, ack 37, win 501, length 220
+03:20:06.053331 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 78540:78760, ack 37, win 501, length 220
+03:20:06.053419 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 78760:78980, ack 37, win 501, length 220
+03:20:06.053433 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 72460, win 1021, length 0
+03:20:06.053484 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 78980:79360, ack 37, win 501, length 380
+03:20:06.053537 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 79360:79580, ack 37, win 501, length 220
+03:20:06.053589 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 79580:79800, ack 37, win 501, length 220
+03:20:06.053642 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 79800:80020, ack 37, win 501, length 220
+03:20:06.053693 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 80020:80240, ack 37, win 501, length 220
+03:20:06.053749 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 80240:80460, ack 37, win 501, length 220
+03:20:06.053760 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 73720, win 1026, length 0
+03:20:06.053809 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 80460:80840, ack 37, win 501, length 380
+03:20:06.053866 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 80840:81060, ack 37, win 501, length 220
+03:20:06.053920 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 81060:81280, ack 37, win 501, length 220
+03:20:06.053978 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 81280:81500, ack 37, win 501, length 220
+03:20:06.054033 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 81500:81720, ack 37, win 501, length 220
+03:20:06.054086 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 81720:81940, ack 37, win 501, length 220
+03:20:06.054138 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 81940:82160, ack 37, win 501, length 220
+03:20:06.054149 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 74600, win 1023, length 0
+03:20:06.054198 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 82160:82540, ack 37, win 501, length 380
+03:20:06.054250 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 82540:82760, ack 37, win 501, length 220
+03:20:06.054304 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 82760:82980, ack 37, win 501, length 220
+03:20:06.054361 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 82980:83200, ack 37, win 501, length 220
+03:20:06.054418 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 83200:83420, ack 37, win 501, length 220
+03:20:06.054430 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 76020, win 1026, length 0
+03:20:06.054479 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 83420:83800, ack 37, win 501, length 380
+03:20:06.054531 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 77280, win 1021, length 0
+03:20:06.054538 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 83800:84020, ack 37, win 501, length 220
+03:20:06.054593 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 84020:84400, ack 37, win 501, length 380
+03:20:06.054644 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 84400:84620, ack 37, win 501, length 220
+03:20:06.054694 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 84620:84840, ack 37, win 501, length 220
+03:20:06.054746 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 84840:85060, ack 37, win 501, length 220
+03:20:06.054796 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 85060:85280, ack 37, win 501, length 220
+03:20:06.054882 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 85280:85500, ack 37, win 501, length 220
+03:20:06.054896 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 78760, win 1026, length 0
+03:20:06.054946 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 85500:85880, ack 37, win 501, length 380
+03:20:06.055010 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 85880:86100, ack 37, win 501, length 220
+03:20:06.055074 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 86100:86320, ack 37, win 501, length 220
+03:20:06.055135 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 86320:86540, ack 37, win 501, length 220
+03:20:06.055147 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 80020, win 1021, length 0
+03:20:06.055194 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 86540:86920, ack 37, win 501, length 380
+03:20:06.055255 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 86920:87140, ack 37, win 501, length 220
+03:20:06.055309 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 87140:87360, ack 37, win 501, length 220
+03:20:06.055364 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 87360:87580, ack 37, win 501, length 220
+03:20:06.055418 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 87580:87800, ack 37, win 501, length 220
+03:20:06.055476 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 87800:88020, ack 37, win 501, length 220
+03:20:06.055532 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 88020:88240, ack 37, win 501, length 220
+03:20:06.055587 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 88240:88460, ack 37, win 501, length 220
+03:20:06.055646 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 81280, win 1026, length 0
+03:20:06.055659 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 88460:88680, ack 37, win 501, length 220
+03:20:06.055725 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 88680:89060, ack 37, win 501, length 380
+03:20:06.055783 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 89060:89280, ack 37, win 501, length 220
+03:20:06.055847 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 89280:89500, ack 37, win 501, length 220
+03:20:06.055921 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 82760, win 1026, length 0
+03:20:06.055928 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 89500:89720, ack 37, win 501, length 220
+03:20:06.056008 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 89720:90100, ack 37, win 501, length 380
+03:20:06.056070 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 90100:90320, ack 37, win 501, length 220
+03:20:06.056176 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 90320:90540, ack 37, win 501, length 220
+03:20:06.056200 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 84020, win 1021, length 0
+03:20:06.056267 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 90540:90920, ack 37, win 501, length 380
+03:20:06.056290 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 85280, win 1026, length 0
+03:20:06.056374 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 90920:91300, ack 37, win 501, length 380
+03:20:06.056485 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 91300:91520, ack 37, win 501, length 220
+03:20:06.056580 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 91520:91740, ack 37, win 501, length 220
+03:20:06.056650 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 86320, win 1022, length 0
+03:20:06.056660 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 91740:91960, ack 37, win 501, length 220
+03:20:06.056740 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 91960:92340, ack 37, win 501, length 380
+03:20:06.056823 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 92340:92560, ack 37, win 501, length 220
+03:20:06.056886 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 87580, win 1026, length 0
+03:20:06.056896 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 92560:92780, ack 37, win 501, length 220
+03:20:06.056978 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 92780:93160, ack 37, win 501, length 380
+03:20:06.057047 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 93160:93380, ack 37, win 501, length 220
+03:20:06.057062 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 88680, win 1022, length 0
+03:20:06.057127 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 93380:93760, ack 37, win 501, length 380
+03:20:06.057184 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 93760:93980, ack 37, win 501, length 220
+03:20:06.057248 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 93980:94200, ack 37, win 501, length 220
+03:20:06.057303 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 94200:94420, ack 37, win 501, length 220
+03:20:06.057398 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 94420:94640, ack 37, win 501, length 220
+03:20:06.057491 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 89720, win 1026, length 0
+03:20:06.057506 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 94640:94860, ack 37, win 501, length 220
+03:20:06.057573 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 94860:95240, ack 37, win 501, length 380
+03:20:06.057631 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 95240:95460, ack 37, win 501, length 220
+03:20:06.057643 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 90540, win 1023, length 0
+03:20:06.057695 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 95460:95840, ack 37, win 501, length 380
+03:20:06.057753 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 95840:96060, ack 37, win 501, length 220
+03:20:06.057812 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 96060:96280, ack 37, win 501, length 220
+03:20:06.057874 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 96280:96500, ack 37, win 501, length 220
+03:20:06.057993 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 96500:96720, ack 37, win 501, length 220
+03:20:06.058114 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 96720:96940, ack 37, win 501, length 220
+03:20:06.058211 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 96940:97160, ack 37, win 501, length 220
+03:20:06.058223 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 91740, win 1026, length 0
+03:20:06.058276 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 97160:97540, ack 37, win 501, length 380
+03:20:06.058341 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 97540:97760, ack 37, win 501, length 220
+03:20:06.058405 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 97760:97980, ack 37, win 501, length 220
+03:20:06.058417 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 92780, win 1022, length 0
+03:20:06.058476 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 97980:98360, ack 37, win 501, length 380
+03:20:06.058545 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 98360:98580, ack 37, win 501, length 220
+03:20:06.058605 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 98580:98800, ack 37, win 501, length 220
+03:20:06.058668 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 98800:99020, ack 37, win 501, length 220
+03:20:06.058689 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 93760, win 1026, length 0
+03:20:06.058756 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 99020:99400, ack 37, win 501, length 380
+03:20:06.058775 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 94640, win 1023, length 0
+03:20:06.058835 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 99400:99780, ack 37, win 501, length 380
+03:20:06.058900 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 99780:100000, ack 37, win 501, length 220
+03:20:06.058963 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 100000:100220, ack 37, win 501, length 220
+03:20:06.059025 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 100220:100440, ack 37, win 501, length 220
+03:20:06.059086 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 100440:100660, ack 37, win 501, length 220
+03:20:06.059148 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 100660:100880, ack 37, win 501, length 220
+03:20:06.059160 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 95460, win 1026, length 0
+03:20:06.059232 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 100880:101260, ack 37, win 501, length 380
+03:20:06.059299 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 101260:101480, ack 37, win 501, length 220
+03:20:06.059364 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 101480:101700, ack 37, win 501, length 220
+03:20:06.059441 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 96500, win 1022, length 0
+03:20:06.059453 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 101700:101920, ack 37, win 501, length 220
+03:20:06.059509 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 101920:102300, ack 37, win 501, length 380
+03:20:06.059569 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 102300:102520, ack 37, win 501, length 220
+03:20:06.059646 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 102520:102740, ack 37, win 501, length 220
+03:20:06.059661 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 96940, win 1026, length 0
+03:20:06.059722 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 102740:103120, ack 37, win 501, length 380
+03:20:06.059794 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 103120:103340, ack 37, win 501, length 220
+03:20:06.059865 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 103340:103560, ack 37, win 501, length 220
+03:20:06.059926 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 97980, win 1022, length 0
+03:20:06.059936 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 103560:103780, ack 37, win 501, length 220
+03:20:06.060001 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 103780:104160, ack 37, win 501, length 380
+03:20:06.060074 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 104160:104380, ack 37, win 501, length 220
+03:20:06.060137 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 104380:104600, ack 37, win 501, length 220
+03:20:06.060147 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 99020, win 1026, length 0
+03:20:06.060202 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 104600:104980, ack 37, win 501, length 380
+03:20:06.060329 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 104980:105200, ack 37, win 501, length 220
+03:20:06.060428 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 105200:105420, ack 37, win 501, length 220
+03:20:06.060447 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 100000, win 1022, length 0
+03:20:06.060516 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 105420:105800, ack 37, win 501, length 380
+03:20:06.060583 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 105800:106020, ack 37, win 501, length 220
+03:20:06.060650 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 106020:106240, ack 37, win 501, length 220
+03:20:06.060661 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 100880, win 1026, length 0
+03:20:06.060712 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 106240:106620, ack 37, win 501, length 380
+03:20:06.060774 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 106620:106840, ack 37, win 501, length 220
+03:20:06.060833 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 106840:107060, ack 37, win 501, length 220
+03:20:06.060905 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 107060:107280, ack 37, win 501, length 220
+03:20:06.060922 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 101700, win 1023, length 0
+03:20:06.060998 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 107280:107660, ack 37, win 501, length 380
+03:20:06.061062 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 107660:107880, ack 37, win 501, length 220
+03:20:06.061123 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 107880:108100, ack 37, win 501, length 220
+03:20:06.061191 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 102740, win 1026, length 0
+03:20:06.061204 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 108100:108320, ack 37, win 501, length 220
+03:20:06.061279 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 108320:108700, ack 37, win 501, length 380
+03:20:06.061338 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 108700:108920, ack 37, win 501, length 220
+03:20:06.061439 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 108920:109140, ack 37, win 501, length 220
+03:20:06.061503 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 109140:109360, ack 37, win 501, length 220
+03:20:06.061523 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 103780, win 1022, length 0
+03:20:06.061587 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 109360:109740, ack 37, win 501, length 380
+03:20:06.061710 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 109740:109960, ack 37, win 501, length 220
+03:20:06.061780 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 109960:110180, ack 37, win 501, length 220
+03:20:06.061794 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 104600, win 1026, length 0
+03:20:06.061848 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 110180:110560, ack 37, win 501, length 380
+03:20:06.061905 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 110560:110780, ack 37, win 501, length 220
+03:20:06.061968 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 110780:111000, ack 37, win 501, length 220
+03:20:06.062042 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 111000:111220, ack 37, win 501, length 220
+03:20:06.062099 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 105420, win 1023, length 0
+03:20:06.062108 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 111220:111440, ack 37, win 501, length 220
+03:20:06.062160 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 106240, win 1026, length 0
+03:20:06.062174 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 111440:111820, ack 37, win 501, length 380
+03:20:06.062227 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 111820:112200, ack 37, win 501, length 380
+03:20:06.062279 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 112200:112420, ack 37, win 501, length 220
+03:20:06.062331 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 112420:112640, ack 37, win 501, length 220
+03:20:06.062382 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 112640:112860, ack 37, win 501, length 220
+03:20:06.062434 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 112860:113080, ack 37, win 501, length 220
+03:20:06.062496 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 113080:113300, ack 37, win 501, length 220
+03:20:06.062550 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 107280, win 1022, length 0
+03:20:06.062568 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 113300:113520, ack 37, win 501, length 220
+03:20:06.062649 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 113520:113900, ack 37, win 501, length 380
+03:20:06.062708 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 113900:114120, ack 37, win 501, length 220
+03:20:06.062762 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108320, win 1026, length 0
+03:20:06.062770 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 114120:114340, ack 37, win 501, length 220
+03:20:06.062827 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 114340:114720, ack 37, win 501, length 380
+03:20:06.062881 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 114720:114940, ack 37, win 501, length 220
+03:20:06.062941 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 114940:115160, ack 37, win 501, length 220
+03:20:06.062995 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 115160:115380, ack 37, win 501, length 220
+03:20:06.063048 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 115380:115600, ack 37, win 501, length 220
+03:20:06.063109 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 115600:115820, ack 37, win 501, length 220
+03:20:06.063165 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 115820:116040, ack 37, win 501, length 220
+03:20:06.063180 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 109360, win 1022, length 0
+03:20:06.063238 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 116040:116420, ack 37, win 501, length 380
+03:20:06.063294 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 116420:116640, ack 37, win 501, length 220
+03:20:06.063310 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 109960, win 1026, length 0
+03:20:06.063376 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 116640:117020, ack 37, win 501, length 380
+03:20:06.063467 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 117020:117240, ack 37, win 501, length 220
+03:20:06.063521 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 117240:117460, ack 37, win 501, length 220
+03:20:06.063535 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 111000, win 1022, length 0
+03:20:06.063586 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 117460:117840, ack 37, win 501, length 380
+03:20:06.063636 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 117840:118060, ack 37, win 501, length 220
+03:20:06.063688 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 118060:118280, ack 37, win 501, length 220
+03:20:06.063740 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 118280:118500, ack 37, win 501, length 220
+03:20:06.063791 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 118500:118720, ack 37, win 501, length 220
+03:20:06.063855 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 118720:118940, ack 37, win 501, length 220
+03:20:06.063924 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 118940:119160, ack 37, win 501, length 220
+03:20:06.063937 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 112200, win 1026, length 0
+03:20:06.063989 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 119160:119540, ack 37, win 501, length 380
+03:20:06.064053 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 119540:119760, ack 37, win 501, length 220
+03:20:06.064128 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 119760:119980, ack 37, win 501, length 220
+03:20:06.064188 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 119980:120200, ack 37, win 501, length 220
+03:20:06.064201 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 113300, win 1022, length 0
+03:20:06.064252 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 114340, win 1026, length 0
+03:20:06.064258 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 120200:120580, ack 37, win 501, length 380
+03:20:06.064313 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 120580:120960, ack 37, win 501, length 380
+03:20:06.064365 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 120960:121180, ack 37, win 501, length 220
+03:20:06.064423 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 121180:121400, ack 37, win 501, length 220
+03:20:06.064482 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 121400:121620, ack 37, win 501, length 220
+03:20:06.064534 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 115600, win 1021, length 0
+03:20:06.064542 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 121620:121840, ack 37, win 501, length 220
+03:20:06.064598 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 121840:122220, ack 37, win 501, length 380
+03:20:06.064649 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 122220:122440, ack 37, win 501, length 220
+03:20:06.064701 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 122440:122660, ack 37, win 501, length 220
+03:20:06.064752 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 122660:122880, ack 37, win 501, length 220
+03:20:06.064804 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 122880:123100, ack 37, win 501, length 220
+03:20:06.064869 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 123100:123320, ack 37, win 501, length 220
+03:20:06.064937 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 116640, win 1026, length 0
+03:20:06.064946 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 123320:123540, ack 37, win 501, length 220
+03:20:06.065004 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 123540:123920, ack 37, win 501, length 380
+03:20:06.065057 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 123920:124140, ack 37, win 501, length 220
+03:20:06.065126 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 124140:124360, ack 37, win 501, length 220
+03:20:06.065185 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 117460, win 1023, length 0
+03:20:06.065193 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 124360:124580, ack 37, win 501, length 220
+03:20:06.065251 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 124580:124960, ack 37, win 501, length 380
+03:20:06.065311 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 124960:125180, ack 37, win 501, length 220
+03:20:06.065413 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 125180:125400, ack 37, win 501, length 220
+03:20:06.065428 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 37:73, ack 117460, win 1023, length 36
+03:20:06.065489 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 125400:125796, ack 73, win 501, length 396
+03:20:06.065681 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 118720, win 1026, length 0
+03:20:06.065690 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 125796:126016, ack 73, win 501, length 220
+03:20:06.065748 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 126016:126396, ack 73, win 501, length 380
+03:20:06.065799 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 126396:126616, ack 73, win 501, length 220
+03:20:06.065953 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 119760, win 1022, length 0
+03:20:06.065966 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 126616:126836, ack 73, win 501, length 220
+03:20:06.066044 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 126836:127216, ack 73, win 501, length 380
+03:20:06.066101 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 127216:127436, ack 73, win 501, length 220
+03:20:06.066171 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 120960, win 1026, length 0
+03:20:06.066181 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 127436:127656, ack 73, win 501, length 220
+03:20:06.066242 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 127656:128036, ack 73, win 501, length 380
+03:20:06.066251 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 121840, win 1023, length 0
+03:20:06.066301 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 128036:128416, ack 73, win 501, length 380
+03:20:06.066355 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 128416:128636, ack 73, win 501, length 220
+03:20:06.066407 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 128636:128856, ack 73, win 501, length 220
+03:20:06.066460 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 128856:129076, ack 73, win 501, length 220
+03:20:06.066512 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 129076:129296, ack 73, win 501, length 220
+03:20:06.066525 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 123100, win 1026, length 0
+03:20:06.066574 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 129296:129676, ack 73, win 501, length 380
+03:20:06.066637 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 129676:129896, ack 73, win 501, length 220
+03:20:06.066697 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 129896:130116, ack 73, win 501, length 220
+03:20:06.066758 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 130116:130336, ack 73, win 501, length 220
+03:20:06.066770 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 124360, win 1021, length 0
+03:20:06.066820 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 130336:130716, ack 73, win 501, length 380
+03:20:06.066882 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 130716:130936, ack 73, win 501, length 220
+03:20:06.066945 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 130936:131156, ack 73, win 501, length 220
+03:20:06.067010 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 125180, win 1026, length 0
+03:20:06.067018 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 131156:131376, ack 73, win 501, length 220
+03:20:06.067098 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 131376:131756, ack 73, win 501, length 380
+03:20:06.067155 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 131756:131976, ack 73, win 501, length 220
+03:20:06.067210 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 131976:132196, ack 73, win 501, length 220
+03:20:06.067266 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 125796, win 1024, length 0
+03:20:06.067276 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 132196:132416, ack 73, win 501, length 220
+03:20:06.067350 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 132416:132796, ack 73, win 501, length 380
+03:20:06.067404 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 132796:133016, ack 73, win 501, length 220
+03:20:06.067424 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 126616, win 1021, length 0
+03:20:06.067469 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 133016:133396, ack 73, win 501, length 380
+03:20:06.067531 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 133396:133616, ack 73, win 501, length 220
+03:20:06.067584 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 133616:133836, ack 73, win 501, length 220
+03:20:06.067638 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 133836:134056, ack 73, win 501, length 220
+03:20:06.067690 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 134056:134276, ack 73, win 501, length 220
+03:20:06.067743 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 134276:134496, ack 73, win 501, length 220
+03:20:06.067754 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 127656, win 1026, length 0
+03:20:06.067813 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 134496:134876, ack 73, win 501, length 380
+03:20:06.067880 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 134876:135096, ack 73, win 501, length 220
+03:20:06.067895 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 129076, win 1021, length 0
+03:20:06.067959 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 135096:135476, ack 73, win 501, length 380
+03:20:06.068015 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 135476:135696, ack 73, win 501, length 220
+03:20:06.068073 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 135696:135916, ack 73, win 501, length 220
+03:20:06.068127 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 135916:136136, ack 73, win 501, length 220
+03:20:06.068178 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 136136:136356, ack 73, win 501, length 220
+03:20:06.068231 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 136356:136576, ack 73, win 501, length 220
+03:20:06.068288 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 130116, win 1026, length 0
+03:20:06.068299 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 136576:136796, ack 73, win 501, length 220
+03:20:06.068360 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 136796:137176, ack 73, win 501, length 380
+03:20:06.068413 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 137176:137396, ack 73, win 501, length 220
+03:20:06.068427 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 131376, win 1021, length 0
+03:20:06.068486 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 137396:137776, ack 73, win 501, length 380
+03:20:06.068544 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 137776:137996, ack 73, win 501, length 220
+03:20:06.068599 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 137996:138216, ack 73, win 501, length 220
+03:20:06.068650 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 138216:138436, ack 73, win 501, length 220
+03:20:06.068703 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 138436:138656, ack 73, win 501, length 220
+03:20:06.068763 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 138656:138876, ack 73, win 501, length 220
+03:20:06.068832 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 138876:139096, ack 73, win 501, length 220
+03:20:06.068908 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 132416, win 1026, length 0
+03:20:06.068919 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 139096:139316, ack 73, win 501, length 220
+03:20:06.068983 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 139316:139696, ack 73, win 501, length 380
+03:20:06.069036 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 139696:139916, ack 73, win 501, length 220
+03:20:06.069089 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 139916:140136, ack 73, win 501, length 220
+03:20:06.069153 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 133836, win 1021, length 0
+03:20:06.069162 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 140136:140356, ack 73, win 501, length 220
+03:20:06.069212 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 140356:140736, ack 73, win 501, length 380
+03:20:06.069267 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 140736:140956, ack 73, win 501, length 220
+03:20:06.069331 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 140956:141176, ack 73, win 501, length 220
+03:20:06.069455 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 134876, win 1026, length 0
+03:20:06.069470 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 141176:141396, ack 73, win 501, length 220
+03:20:06.069530 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 141396:141776, ack 73, win 501, length 380
+03:20:06.069592 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 141776:141996, ack 73, win 501, length 220
+03:20:06.069656 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 136136, win 1021, length 0
+03:20:06.069669 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 141996:142216, ack 73, win 501, length 220
+03:20:06.069734 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 142216:142596, ack 73, win 501, length 380
+03:20:06.069789 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 142596:142816, ack 73, win 501, length 220
+03:20:06.069842 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 142816:143036, ack 73, win 501, length 220
+03:20:06.069902 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 143036:143256, ack 73, win 501, length 220
+03:20:06.069961 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 143256:143476, ack 73, win 501, length 220
+03:20:06.070031 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 137396, win 1026, length 0
+03:20:06.070041 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 143476:143696, ack 73, win 501, length 220
+03:20:06.070114 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 143696:144076, ack 73, win 501, length 380
+03:20:06.070168 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 144076:144296, ack 73, win 501, length 220
+03:20:06.070219 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 144296:144516, ack 73, win 501, length 220
+03:20:06.070272 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 144516:144736, ack 73, win 501, length 220
+03:20:06.070323 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 144736:144956, ack 73, win 501, length 220
+03:20:06.070374 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 144956:145176, ack 73, win 501, length 220
+03:20:06.070426 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 145176:145396, ack 73, win 501, length 220
+03:20:06.070485 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 145396:145616, ack 73, win 501, length 220
+03:20:06.070549 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 145616:145836, ack 73, win 501, length 220
+03:20:06.070560 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 138656, win 1021, length 0
+03:20:06.070611 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 145836:146216, ack 73, win 501, length 380
+03:20:06.070665 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 146216:146436, ack 73, win 501, length 220
+03:20:06.070675 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 139316, win 1026, length 0
+03:20:06.070724 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 146436:146816, ack 73, win 501, length 380
+03:20:06.070777 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 146816:147036, ack 73, win 501, length 220
+03:20:06.070788 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 140736, win 1021, length 0
+03:20:06.070837 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 147036:147416, ack 73, win 501, length 380
+03:20:06.070900 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 147416:147636, ack 73, win 501, length 220
+03:20:06.070911 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 141396, win 1026, length 0
+03:20:06.070960 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 147636:148016, ack 73, win 501, length 380
+03:20:06.071012 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 148016:148236, ack 73, win 501, length 220
+03:20:06.071063 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 148236:148456, ack 73, win 501, length 220
+03:20:06.071114 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 148456:148676, ack 73, win 501, length 220
+03:20:06.071173 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 148676:148896, ack 73, win 501, length 220
+03:20:06.071232 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 148896:149116, ack 73, win 501, length 220
+03:20:06.071296 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 149116:149336, ack 73, win 501, length 220
+03:20:06.071348 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 149336:149556, ack 73, win 501, length 220
+03:20:06.071399 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 149556:149776, ack 73, win 501, length 220
+03:20:06.071452 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 149776:149996, ack 73, win 501, length 220
+03:20:06.071506 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 142816, win 1021, length 0
+03:20:06.071516 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 149996:150216, ack 73, win 501, length 220
+03:20:06.071580 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 150216:150596, ack 73, win 501, length 380
+03:20:06.071650 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 143696, win 1026, length 0
+03:20:06.071661 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 150596:150816, ack 73, win 501, length 220
+03:20:06.071756 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144296, win 1024, length 0
+03:20:06.071784 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 144956, win 1021, length 0
+03:20:06.071847 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 150816:151524, ack 73, win 501, length 708
+03:20:06.071922 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 151524:151744, ack 73, win 501, length 220
+03:20:06.071976 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 151744:151964, ack 73, win 501, length 220
+03:20:06.072029 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 146436, win 1026, length 0
+03:20:06.072038 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 151964:152184, ack 73, win 501, length 220
+03:20:06.072094 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 152184:152564, ack 73, win 501, length 380
+03:20:06.072146 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 152564:152784, ack 73, win 501, length 220
+03:20:06.072197 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 152784:153004, ack 73, win 501, length 220
+03:20:06.072248 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 153004:153224, ack 73, win 501, length 220
+03:20:06.072306 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 153224:153444, ack 73, win 501, length 220
+03:20:06.072360 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 153444:153664, ack 73, win 501, length 220
+03:20:06.072419 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 153664:153884, ack 73, win 501, length 220
+03:20:06.072471 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 153884:154104, ack 73, win 501, length 220
+03:20:06.072523 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 154104:154324, ack 73, win 501, length 220
+03:20:06.072535 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 147636, win 1021, length 0
+03:20:06.072588 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 154324:154704, ack 73, win 501, length 380
+03:20:06.072642 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 148896, win 1026, length 0
+03:20:06.072676 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 154704:154924, ack 73, win 501, length 220
+03:20:06.072731 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 154924:155128, ack 73, win 501, length 204
+03:20:06.072770 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 155128:155524, ack 73, win 501, length 396
+03:20:06.072822 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 155524:155744, ack 73, win 501, length 220
+03:20:06.072887 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 155744:155964, ack 73, win 501, length 220
+03:20:06.072973 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 155964:156184, ack 73, win 501, length 220
+03:20:06.073036 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 156184:156404, ack 73, win 501, length 220
+03:20:06.073098 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 156404:156624, ack 73, win 501, length 220
+03:20:06.073158 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 156624:156844, ack 73, win 501, length 220
+03:20:06.073172 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 150216, win 1021, length 0
+03:20:06.073227 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 156844:157224, ack 73, win 501, length 380
+03:20:06.073280 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 157224:157444, ack 73, win 501, length 220
+03:20:06.073292 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 150816, win 1026, length 0
+03:20:06.073342 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 157444:157824, ack 73, win 501, length 380
+03:20:06.073438 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 157824:158044, ack 73, win 501, length 220
+03:20:06.073490 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 158044:158264, ack 73, win 501, length 220
+03:20:06.073542 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 158264:158484, ack 73, win 501, length 220
+03:20:06.073592 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 158484:158704, ack 73, win 501, length 220
+03:20:06.073644 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 158704:158924, ack 73, win 501, length 220
+03:20:06.073657 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 152184, win 1021, length 0
+03:20:06.073705 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 158924:159304, ack 73, win 501, length 380
+03:20:06.073768 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 159304:159524, ack 73, win 501, length 220
+03:20:06.073832 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 159524:159744, ack 73, win 501, length 220
+03:20:06.073891 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 159744:159964, ack 73, win 501, length 220
+03:20:06.073906 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 153664, win 1026, length 0
+03:20:06.073957 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 159964:160344, ack 73, win 501, length 380
+03:20:06.074010 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 160344:160564, ack 73, win 501, length 220
+03:20:06.074062 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 160564:160784, ack 73, win 501, length 220
+03:20:06.074113 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 160784:161004, ack 73, win 501, length 220
+03:20:06.074166 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 161004:161224, ack 73, win 501, length 220
+03:20:06.074178 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 154704, win 1022, length 0
+03:20:06.074227 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 161224:161604, ack 73, win 501, length 380
+03:20:06.074278 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 161604:161824, ack 73, win 501, length 220
+03:20:06.074330 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 161824:162044, ack 73, win 501, length 220
+03:20:06.074381 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 162044:162264, ack 73, win 501, length 220
+03:20:06.074432 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 162264:162484, ack 73, win 501, length 220
+03:20:06.074483 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 162484:162704, ack 73, win 501, length 220
+03:20:06.074538 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 156184, win 1026, length 0
+03:20:06.074554 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 162704:162924, ack 73, win 501, length 220
+03:20:06.074614 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 162924:163304, ack 73, win 501, length 380
+03:20:06.074667 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 163304:163524, ack 73, win 501, length 220
+03:20:06.074719 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 163524:163744, ack 73, win 501, length 220
+03:20:06.074771 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 163744:163964, ack 73, win 501, length 220
+03:20:06.074802 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 157444, win 1021, length 0
+03:20:06.074859 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 163964:164344, ack 73, win 501, length 380
+03:20:06.074922 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 164344:164564, ack 73, win 501, length 220
+03:20:06.074975 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 164564:164784, ack 73, win 501, length 220
+03:20:06.075037 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 164784:165004, ack 73, win 501, length 220
+03:20:06.075090 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 165004:165224, ack 73, win 501, length 220
+03:20:06.075145 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 165224:165444, ack 73, win 501, length 220
+03:20:06.075158 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 158484, win 1026, length 0
+03:20:06.075209 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 165444:165824, ack 73, win 501, length 380
+03:20:06.075261 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 165824:166044, ack 73, win 501, length 220
+03:20:06.075275 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 159744, win 1021, length 0
+03:20:06.075335 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 166044:166424, ack 73, win 501, length 380
+03:20:06.075392 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 166424:166644, ack 73, win 501, length 220
+03:20:06.075451 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 166644:166864, ack 73, win 501, length 220
+03:20:06.075510 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 166864:167084, ack 73, win 501, length 220
+03:20:06.075563 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 167084:167304, ack 73, win 501, length 220
+03:20:06.075628 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 167304:167524, ack 73, win 501, length 220
+03:20:06.075641 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 161004, win 1026, length 0
+03:20:06.075692 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 167524:167904, ack 73, win 501, length 380
+03:20:06.075807 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 167904:168124, ack 73, win 501, length 220
+03:20:06.075821 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 162264, win 1021, length 0
+03:20:06.075871 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 168124:168504, ack 73, win 501, length 380
+03:20:06.075922 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 168504:168724, ack 73, win 501, length 220
+03:20:06.075973 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 168724:168944, ack 73, win 501, length 220
+03:20:06.076023 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 168944:169164, ack 73, win 501, length 220
+03:20:06.076075 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 169164:169384, ack 73, win 501, length 220
+03:20:06.076126 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 169384:169604, ack 73, win 501, length 220
+03:20:06.076138 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 163524, win 1026, length 0
+03:20:06.076189 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 169604:169984, ack 73, win 501, length 380
+03:20:06.076241 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 169984:170204, ack 73, win 501, length 220
+03:20:06.076294 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 170204:170424, ack 73, win 501, length 220
+03:20:06.076346 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 170424:170644, ack 73, win 501, length 220
+03:20:06.076397 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 170644:170864, ack 73, win 501, length 220
+03:20:06.076458 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 170864:171084, ack 73, win 501, length 220
+03:20:06.076529 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 171084:171304, ack 73, win 501, length 220
+03:20:06.076543 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 164564, win 1022, length 0
+03:20:06.076593 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 171304:171684, ack 73, win 501, length 380
+03:20:06.076655 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 171684:171904, ack 73, win 501, length 220
+03:20:06.076716 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 171904:172124, ack 73, win 501, length 220
+03:20:06.076777 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 172124:172344, ack 73, win 501, length 220
+03:20:06.076840 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 172344:172564, ack 73, win 501, length 220
+03:20:06.076900 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 172564:172784, ack 73, win 501, length 220
+03:20:06.076912 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 165444, win 1026, length 0
+03:20:06.076962 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 172784:173164, ack 73, win 501, length 380
+03:20:06.077014 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 173164:173384, ack 73, win 501, length 220
+03:20:06.077064 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 173384:173604, ack 73, win 501, length 220
+03:20:06.077115 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 173604:173824, ack 73, win 501, length 220
+03:20:06.077168 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 173824:174044, ack 73, win 501, length 220
+03:20:06.077179 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 166864, win 1021, length 0
+03:20:06.077229 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 174044:174424, ack 73, win 501, length 380
+03:20:06.077282 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 174424:174644, ack 73, win 501, length 220
+03:20:06.077294 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 167524, win 1026, length 0
+03:20:06.077373 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 174644:175024, ack 73, win 501, length 380
+03:20:06.077432 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 175024:175244, ack 73, win 501, length 220
+03:20:06.077485 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 175244:175464, ack 73, win 501, length 220
+03:20:06.077539 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 175464:175684, ack 73, win 501, length 220
+03:20:06.077552 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 168944, win 1021, length 0
+03:20:06.077614 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 175684:176064, ack 73, win 501, length 380
+03:20:06.077672 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 176064:176284, ack 73, win 501, length 220
+03:20:06.077728 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 176284:176504, ack 73, win 501, length 220
+03:20:06.077788 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 170424, win 1026, length 0
+03:20:06.077798 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 176504:176724, ack 73, win 501, length 220
+03:20:06.077876 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 176724:177104, ack 73, win 501, length 380
+03:20:06.077932 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 177104:177324, ack 73, win 501, length 220
+03:20:06.077988 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 177324:177544, ack 73, win 501, length 220
+03:20:06.078043 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 177544:177764, ack 73, win 501, length 220
+03:20:06.078096 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 177764:177984, ack 73, win 501, length 220
+03:20:06.078151 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 177984:178204, ack 73, win 501, length 220
+03:20:06.078162 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 171304, win 1023, length 0
+03:20:06.078214 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 178204:178584, ack 73, win 501, length 380
+03:20:06.078314 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 178584:178804, ack 73, win 501, length 220
+03:20:06.078368 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 178804:179024, ack 73, win 501, length 220
+03:20:06.078379 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 172564, win 1026, length 0
+03:20:06.078429 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 179024:179404, ack 73, win 501, length 380
+03:20:06.078481 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 179404:179624, ack 73, win 501, length 220
+03:20:06.078532 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 179624:179844, ack 73, win 501, length 220
+03:20:06.078582 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 179844:180064, ack 73, win 501, length 220
+03:20:06.078634 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 180064:180284, ack 73, win 501, length 220
+03:20:06.078645 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 173824, win 1021, length 0
+03:20:06.078695 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 180284:180664, ack 73, win 501, length 380
+03:20:06.078746 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 180664:180884, ack 73, win 501, length 220
+03:20:06.078756 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 175024, win 1026, length 0
+03:20:06.078805 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 180884:181264, ack 73, win 501, length 380
+03:20:06.078857 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 181264:181484, ack 73, win 501, length 220
+03:20:06.078960 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 181484:181704, ack 73, win 501, length 220
+03:20:06.079012 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 181704:181924, ack 73, win 501, length 220
+03:20:06.079063 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 181924:182144, ack 73, win 501, length 220
+03:20:06.079114 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 182144:182364, ack 73, win 501, length 220
+03:20:06.079165 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 182364:182584, ack 73, win 501, length 220
+03:20:06.079215 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 182584:182804, ack 73, win 501, length 220
+03:20:06.079266 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 182804:183024, ack 73, win 501, length 220
+03:20:06.079278 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 176284, win 1021, length 0
+03:20:06.079327 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 183024:183404, ack 73, win 501, length 380
+03:20:06.079378 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 183404:183624, ack 73, win 501, length 220
+03:20:06.079429 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 183624:183844, ack 73, win 501, length 220
+03:20:06.079481 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 183844:184064, ack 73, win 501, length 220
+03:20:06.079539 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 184064:184284, ack 73, win 501, length 220
+03:20:06.079550 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 177324, win 1026, length 0
+03:20:06.079596 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 184284:184664, ack 73, win 501, length 380
+03:20:06.079661 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 184664:184884, ack 73, win 501, length 220
+03:20:06.079723 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 184884:185104, ack 73, win 501, length 220
+03:20:06.079774 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 185104:185324, ack 73, win 501, length 220
+03:20:06.079825 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 185324:185544, ack 73, win 501, length 220
+03:20:06.079891 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [P.], seq 73:109, ack 177324, win 1026, length 36
+03:20:06.079899 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 185544:185764, ack 73, win 501, length 220
+03:20:06.079973 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 185764:186160, ack 109, win 501, length 396
+03:20:06.080028 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 186160:186380, ack 109, win 501, length 220
+03:20:06.080039 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 178204, win 1023, length 0
+03:20:06.080090 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 186380:186760, ack 109, win 501, length 380
+03:20:06.080153 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 186760:186980, ack 109, win 501, length 220
+03:20:06.080164 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 179844, win 1026, length 0
+03:20:06.080213 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 186980:187360, ack 109, win 501, length 380
+03:20:06.080275 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 187360:187580, ack 109, win 501, length 220
+03:20:06.080336 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 187580:187800, ack 109, win 501, length 220
+03:20:06.080390 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 187800:188020, ack 109, win 501, length 220
+03:20:06.080410 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 181264, win 1021, length 0
+03:20:06.080453 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 188020:188400, ack 109, win 501, length 380
+03:20:06.080504 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 188400:188620, ack 109, win 501, length 220
+03:20:06.080560 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 188620:188840, ack 109, win 501, length 220
+03:20:06.080612 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 188840:189060, ack 109, win 501, length 220
+03:20:06.080666 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 182584, win 1026, length 0
+03:20:06.080676 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 189060:189280, ack 109, win 501, length 220
+03:20:06.080739 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 189280:189660, ack 109, win 501, length 380
+03:20:06.080791 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 189660:189880, ack 109, win 501, length 220
+03:20:06.080846 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 189880:190100, ack 109, win 501, length 220
+03:20:06.080912 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 190100:190320, ack 109, win 501, length 220
+03:20:06.080970 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 190320:190540, ack 109, win 501, length 220
+03:20:06.081023 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 190540:190760, ack 109, win 501, length 220
+03:20:06.081036 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 184064, win 1026, length 0
+03:20:06.081090 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 190760:191140, ack 109, win 501, length 380
+03:20:06.081142 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 191140:191360, ack 109, win 501, length 220
+03:20:06.081194 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 191360:191580, ack 109, win 501, length 220
+03:20:06.081245 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 191580:191800, ack 109, win 501, length 220
+03:20:06.081306 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 191800:192020, ack 109, win 501, length 220
+03:20:06.081412 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 192020:192240, ack 109, win 501, length 220
+03:20:06.081425 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 185544, win 1026, length 0
+03:20:06.081477 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 192240:192620, ack 109, win 501, length 380
+03:20:06.081545 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 192620:192840, ack 109, win 501, length 220
+03:20:06.081604 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 192840:193060, ack 109, win 501, length 220
+03:20:06.081656 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 193060:193280, ack 109, win 501, length 220
+03:20:06.081667 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 186760, win 1021, length 0
+03:20:06.081716 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 193280:193660, ack 109, win 501, length 380
+03:20:06.081768 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 193660:193880, ack 109, win 501, length 220
+03:20:06.081866 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 193880:194100, ack 109, win 501, length 220
+03:20:06.081879 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 188020, win 1026, length 0
+03:20:06.081938 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 194100:194480, ack 109, win 501, length 380
+03:20:06.081991 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 194480:194700, ack 109, win 501, length 220
+03:20:06.082046 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 194700:194920, ack 109, win 501, length 220
+03:20:06.082097 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 194920:195140, ack 109, win 501, length 220
+03:20:06.082149 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 195140:195360, ack 109, win 501, length 220
+03:20:06.082200 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 195360:195580, ack 109, win 501, length 220
+03:20:06.082252 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 189280, win 1021, length 0
+03:20:06.082261 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 195580:195800, ack 109, win 501, length 220
+03:20:06.082316 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 195800:196180, ack 109, win 501, length 380
+03:20:06.082368 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 196180:196400, ack 109, win 501, length 220
+03:20:06.082421 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 196400:196620, ack 109, win 501, length 220
+03:20:06.082477 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 196620:196840, ack 109, win 501, length 220
+03:20:06.082532 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 190540, win 1026, length 0
+03:20:06.082538 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 196840:197060, ack 109, win 501, length 220
+03:20:06.082591 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 197060:197440, ack 109, win 501, length 380
+03:20:06.082642 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 197440:197660, ack 109, win 501, length 220
+03:20:06.082692 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 197660:197880, ack 109, win 501, length 220
+03:20:06.082744 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 197880:198100, ack 109, win 501, length 220
+03:20:06.082757 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 191800, win 1021, length 0
+03:20:06.082807 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 198100:198480, ack 109, win 501, length 380
+03:20:06.082865 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 198480:198700, ack 109, win 501, length 220
+03:20:06.082919 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 198700:198920, ack 109, win 501, length 220
+03:20:06.083041 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 198920:199140, ack 109, win 501, length 220
+03:20:06.083056 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 192840, win 1026, length 0
+03:20:06.083112 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 199140:199520, ack 109, win 501, length 380
+03:20:06.083165 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 199520:199740, ack 109, win 501, length 220
+03:20:06.083217 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 199740:199960, ack 109, win 501, length 220
+03:20:06.083269 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 199960:200180, ack 109, win 501, length 220
+03:20:06.083330 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 200180:200400, ack 109, win 501, length 220
+03:20:06.083381 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 200400:200620, ack 109, win 501, length 220
+03:20:06.083395 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 193880, win 1022, length 0
+03:20:06.083445 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 200620:201000, ack 109, win 501, length 380
+03:20:06.083496 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 201000:201220, ack 109, win 501, length 220
+03:20:06.083549 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 201220:201440, ack 109, win 501, length 220
+03:20:06.083604 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 201440:201660, ack 109, win 501, length 220
+03:20:06.083659 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 195360, win 1026, length 0
+03:20:06.083668 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 201660:201880, ack 109, win 501, length 220
+03:20:06.083727 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 201880:202260, ack 109, win 501, length 380
+03:20:06.083779 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 202260:202480, ack 109, win 501, length 220
+03:20:06.083832 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 202480:202700, ack 109, win 501, length 220
+03:20:06.083886 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 202700:202920, ack 109, win 501, length 220
+03:20:06.083937 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 202920:203140, ack 109, win 501, length 220
+03:20:06.083988 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 203140:203360, ack 109, win 501, length 220
+03:20:06.084038 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 203360:203580, ack 109, win 501, length 220
+03:20:06.084089 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 203580:203800, ack 109, win 501, length 220
+03:20:06.084154 IP bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 196620, win 1021, length 0
+03:20:06.084162 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 203800:204020, ack 109, win 501, length 220
+03:20:06.084219 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 204020:204400, ack 109, win 501, length 380
+03:20:06.084271 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > bras-base-toroon0817w-grc-26-184-146-121-215.dsl.bell.ca.64650: Flags [P.], seq 204400:204620, ack 109, win 501, length 220
